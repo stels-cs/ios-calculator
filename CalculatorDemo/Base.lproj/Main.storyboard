@@ -21,6 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABb-FG-dLN">
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="¯\_(ツ)_/¯">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ERROR" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHx-H6-TJp">
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -199,6 +205,7 @@
                             <constraint firstAttribute="trailing" secondItem="yX0-sk-LTp" secondAttribute="trailing" id="4Ot-ge-bDX"/>
                             <constraint firstAttribute="leading" secondItem="Fom-Ma-6uO" secondAttribute="leading" id="4gk-46-Rj5"/>
                             <constraint firstAttribute="trailing" secondItem="RYR-aR-EgP" secondAttribute="trailing" id="5Tg-vB-2RV"/>
+                            <constraint firstItem="ABb-FG-dLN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="7:6" id="7JS-MW-yPC"/>
                             <constraint firstItem="UQc-fp-MJd" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:7" id="7qr-tm-XH3"/>
                             <constraint firstItem="Fom-Ma-6uO" firstAttribute="top" secondItem="f09-fZ-smS" secondAttribute="bottom" id="9on-cF-ZPm"/>
                             <constraint firstItem="i5T-2O-UoC" firstAttribute="top" secondItem="UjU-Zb-yFE" secondAttribute="bottom" id="An2-rZ-0ow"/>
@@ -225,6 +232,7 @@
                             <constraint firstAttribute="leading" secondItem="bEp-7P-Xtg" secondAttribute="leading" id="Yg4-HY-hYN"/>
                             <constraint firstItem="RYR-aR-EgP" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:7" id="ZQY-QJ-akU"/>
                             <constraint firstItem="KIS-4q-wPn" firstAttribute="top" secondItem="WEt-jv-TRI" secondAttribute="bottom" id="bMx-7R-847"/>
+                            <constraint firstItem="ABb-FG-dLN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="16:14" id="bQ0-RI-3dm"/>
                             <constraint firstItem="c7E-vf-KoM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" priority="750" id="bUQ-3q-jTz"/>
                             <constraint firstItem="WEt-jv-TRI" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:4" priority="750" id="cWs-hE-YZV"/>
                             <constraint firstItem="wPY-Nf-RpP" firstAttribute="height" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:7" id="chT-QQ-DFH"/>
